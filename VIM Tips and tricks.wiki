@@ -1,0 +1,14 @@
+= Commands =
+
+  * convert to html -> _:TOhtml_
+  * convert to HEX and back -> _:%!xxd_ and back _:%!xxd -r_
+
+= VIM motion =
+
+== NORMAL MODE ==
+
+  * make math and put result to editor -> _C-r_ then = and then put calculation and _<C-r>_
+   
+== INSERT MODE ==
+
+  * TBA
