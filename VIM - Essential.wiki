@@ -1,0 +1,9 @@
+==VIM - Essentials==
+
+[[NORMAL MODE]]
+
+[[INSERT MODE]]
+
+[[VISUAL MODE]]
+
+[[COMMANDS]]

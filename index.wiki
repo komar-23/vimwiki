@@ -1,5 +1,13 @@
 = MY WIKI =
 
+== VIM ==
+
 [[VIM Tips and tricks]] : Contains tips and tricks for VIM (e.g. vim motion, commands, etc.).
 
+[[VIM - Essential]] : Contains essential VIM motions, command etc.
+
+== CLI ==
+
 [[CLI Tips and tricks]] : Contains tips and tricks for CLI programs (e.g. find, grep, sed, etc.).
+
+[[CLI - Essential Commands]] : Contains over 100 essential (categorized) linux commands

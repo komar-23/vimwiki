@@ -1,0 +1,132 @@
+==NORMAL MODE==
+
+== 📄 Line Navigation ==
+* `h` – move left one character
+* `l` – move right one character
+* `0` – move to beginning of line
+* `^` – move to first non-blank character
+* `$` – move to end of line
+* `g_` – move to last non-blank character
+
+== 📜 Vertical Line Navigation ==
+* `j` – move down one line
+* `k` – move up one line
+* `+` – move to first non-blank character of next line
+* `-` – move to first non-blank character of previous line
+* `gj` – move down by display line (wrap-aware)
+* `gk` – move up by display line
+
+== 🪜 Word Motions ==
+* `w` – forward to beginning of next word
+* `W` – forward to next WORD (non-punctuation-based)
+* `e` – to end of current/next word
+* `E` – to end of current/next WORD
+* `b` – backward to beginning of word
+* `B` – backward to beginning of WORD
+* `ge` – backward to end of previous word
+* `gE` – backward to end of previous WORD
+
+== 📈 Line and Screen Motions ==
+* `gg` – go to first line
+* `G` – go to last line
+* `nG` – go to line `n`
+* `ngg` – go to line `n`
+* `H` – top of screen
+* `M` – middle of screen
+* `L` – bottom of screen
+* `zz` – center line
+* `zt` – move line to top of screen
+* `zb` – move line to bottom
+
+== 🔍 Search Motions ==
+* `/pattern` – search forward for "pattern"
+* `?pattern` – search backward for "pattern"
+* `[[n]]` – repeat last search forward
+* `N` – repeat last search backward
+* `*` – search forward for word under cursor
+* `#` – search backward for word under cursor
+* `g*` – partial match forward
+* `g#` – partial match backward
+
+== 🔡 Character Search Within Line ==
+* `f{char}` – to next `{char}` on line
+* `F{char}` – to previous `{char}` on line
+* `t{char}` – before next `{char}` on line
+* `T{char}` – before previous `{char}` on line
+* `;` – repeat last `f`, `F`, `t`, or `T`
+* `,` – reverse last `f`, `F`, `t`, or `T`
+
+== 🧭 Marks and Jumps ==
+* `` `a `` – jump to exact position of mark `a`
+* `'a` – jump to beginning of line with mark `a`
+* {{`}}{{`}} – jump to previous exact location
+* `''` – jump to previous line location
+* `'.` – jump to last change
+* `:marks` – list all marks
+* `''` – return to prior location
+* `:jump` – view jump list
+
+== ⛏️ Paragraph and Sentence Navigation ==
+* `{` – move to previous paragraph
+* `}` – move to next paragraph
+* `(` – move to beginning of sentence
+* `)` – move to next sentence
+
+== ⌨ Scroll and Screen Control ==
+* `Ctrl-d` – scroll down half screen
+* `Ctrl-u` – scroll up half screen
+* `Ctrl-f` – scroll forward full screen
+* `Ctrl-b` – scroll backward full screen
+* `Ctrl-e` – scroll screen down one line (cursor stays)
+* `Ctrl-y` – scroll screen up one line (cursor stays)
+
+== 🔗 Matching and Structural Motions ==
+* `%` – jump to matching bracket: `()`, `{}`, `[]`
+* `[[` – go to previous section/function
+* `]]` – go to next section/function
+* `[]` – back to previous heading (filetype-aware)
+* `][` – forward to next heading
+
+== 📌 File and Buffer Navigation ==
+* `gf` – open file under cursor
+* `Ctrl-^` – toggle between last two files
+* `:e filename` – open file
+* `:bnext` – go to next buffer
+* `:bprev` – go to previous buffer
+* `:ls` – list buffers
+
+== 🧠 Jump History and Edits ==
+* `g;` – go to last edit location
+* `g,` – go to previous edit location
+* `:changes` – list recent changes
+
+== 📦 Text Object Motions (Used with Operators) ==
+* `aw` – a word (with space)
+* `iw` – inner word
+* `aW` – a WORD (non-punctuation-based)
+* `iW` – inner WORD
+* `as` – a sentence
+* `is` – inner sentence
+* `ap` – a paragraph
+* `ip` – inner paragraph
+* `a"` – around double quotes
+* `i"` – inside double quotes
+* `a'` – around single quotes
+* `i'` – inside single quotes
+* `a(` / `a)` – around parentheses
+* `i(` / `i)` – inside parentheses
+* `a{` / `a}` – around braces
+* `i{` / `i}` – inside braces
+* `a<` / `a>` – around angle brackets
+* `i<` / `i>` – inside angle brackets
+* `a[` / `a]` – around square brackets
+* `i[` / `i]` – inside square brackets
+
+== 🔍 Miscellaneous Normal Mode Motions ==
+* `zx` – re-read and refresh current file
+* `g0` – beginning of screen line
+* `g$` – end of screen line
+* `gm` – middle of screen line
+* `g^` – first non-blank of screen line
+* `:normal {cmd}` – execute motion as normal command on many lines
+

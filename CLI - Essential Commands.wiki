@@ -1,0 +1,138 @@
+==CLI - Essential Commands==
+
+== 📁 Navigating the Filesystem ==
+* `pwd` – print current working directory
+* `cd` – change directory
+* `ls` – list files and directories
+* `tree` – display directory structure as a tree
+* `find` – search for files and directories
+* `locate` – quickly find files (uses index)
+* `realpath` – show the full path of a file
+* `basename` – extract file name from a path
+* `dirname` – extract directory from a path
+* `stat` – display file details (permissions, size, timestamp)
+* `which` – locate given command
+* `whereis` – locate binary, source, man location for command
+
+== 📂 File and Directory Management ==
+* `touch` – create an empty file
+* `cp` – copy files or directories
+* `mv` – move or rename files/directories
+* `rm` – remove files
+* `rmdir` – remove empty directories
+* `mkdir` – create new directories
+* `file` – identify file type
+* `rename` – batch rename files
+* `shred` – securely delete files
+* `lsattr` – list file attributes
+* `ln` – create link (e.g. -s symbolic link)
+* `zip/unzip` – pack/unpack files
+
+== 📝 Viewing and Editing Files ==
+* `echo` – print text passed as argument 
+* `cat` – display file contents
+* `less` – view file contents page by page
+* `more` – simpler pager
+* `head` – display the beginning of a file
+* `tail` – display the end of a file
+* `nano` – simple text editor
+* `vim` – advanced text editor
+* `diff` – compare files
+* `cmp` – compare files byte-by-byte
+* `xxd` – display file in hexadecimal format
+
+== 🔍 Searching and Filtering ==
+* `grep` – search text using patterns
+* `egrep` – extended grep (Egrep)
+* `fgrep` – fixed-string grep (no regex)
+* `awk` – powerful text processing
+* `sed` – stream editor
+* `cut` – extract columns from text
+* `sort` – sort lines of text
+* `uniq` – remove duplicate lines
+* `wc` – word, line, and byte count
+* `tr` – translate or delete characters
+
+== 🔧 System and Processes ==
+* `ps` – list running processes
+* `top` – monitor system processes
+* `htop` – interactive process viewer
+* `kill` – terminate a process by PID
+* `killall` – terminate processes by name
+* `nice` – start a process with priority
+* `renice` – change process priority
+* `uptime` – show system uptime
+* `free` – display memory usage
+* `vmstat` – system performance stats
+* `pkill` – terminate process (more powerfull)
+* `systemctl` - used to manage and interact with service manager
+* `reboot` - reboot system
+* `shutdown` - shutdown system
+
+== 📦 Package Management ==
+* `apt` – Debian/Ubuntu package manager
+* `dnf` – Fedora package manager
+* `yum` – older Red Hat-based manager
+* `pacman` – Arch Linux package manager
+* `zypper` – openSUSE package manager
+* `snap` – install/manage snap packages
+* `flatpak` – sandboxed app manager
+* `dpkg` – low-level Debian package tool
+* `rpm` – low-level Red Hat package tool
+* `brew` – Homebrew (for Linux/macOS)
+
+== 👤 Users and Permissions ==
+* `whoami` – show current user
+* `id` – display user and group IDs
+* `adduser` – add a new user (friendly)
+* `useradd` – low-level user creation
+* `passwd` – change user password
+* `usermod` – modify user account
+* `groupadd` – create new user group
+* `groups` – show user group memberships
+* `chmod` – change file permissions
+* `chown` – change file ownership
+* `finger` - display information about users
+
+== 🔐 Access and Security ==
+* `sudo` – run command as superuser
+* `su` – switch user
+* `ssh` – connect to remote systems securely
+* `scp` – securely copy files over SSH
+* `rsync` – sync files/directories efficiently
+* `gpg` – encrypt/decrypt using GPG
+* `openssl` – cryptographic toolkit
+* `iptables` – configure firewall rules
+* `ufw` – user-friendly firewall manager
+* `fail2ban` – block brute-force attacks
+
+== 🌐 Networking and Internet ==
+* `ping` – test connectivity to a host
+* `curl` – fetch data from a URL
+* `wget` – download files from the web
+* `netstat` – view network connections
+* `ss` – modern alternative to `netstat`
+* `ip` – network interface configuration
+* `ifconfig` – older tool for network config
+* `dig` – DNS query tool
+* `nslookup` – basic DNS query
+* `nmap` – port scanning utility
+* `traceroute` – trace the path that network packages take
+
+== 💻 Miscellaneous Useful Commands ==
+* `alias` – create command shortcuts
+* `history` – show command history
+* `time` – measure execution time
+* `date` – show or set system date
+* `cal` – display a calendar
+* `uptime` – show system uptime
+* `df` – show disk space usage
+* `du` – show file/directory sizes
+* `mount` – mount a filesystem
+* `umount` – unmount a filesystem
+* `clear` – clear shell screen 
+* `exit` – exit shell or script 
+* `man` – show manual
+* `whatis` – show short info about specific command
+* `uname` – key information about system 
+* `bc` – basic calculator
